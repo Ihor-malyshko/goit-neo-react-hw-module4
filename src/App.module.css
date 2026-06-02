@@ -1,0 +1,33 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #eef2ff 0%, #f8fafc 100%);
+}
+
+.header {
+  width: 100%;
+  padding: 24px 0 0;
+}
+
+.title {
+  margin: 0 auto 8px;
+  color: #111827;
+  font-size: clamp(32px, 5vw, 46px);
+}
+
+.main {
+  width: 100%;
+  flex: 1;
+}
+
+.message {
+  max-width: 760px;
+  margin: 32px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  color: #475569;
+  box-shadow: 0 10px 35px rgba(15, 23, 42, 0.08);
+  font-size: 16px;
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 32px;
+}
+
+.button {
+  min-width: 140px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
